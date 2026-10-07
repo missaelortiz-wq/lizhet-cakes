@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lizhet Cakes - Pasteles hechos con amor para momentos especiales por Bianca Lizhet. Vainilla, Chocolate, Pastel Alemán y Red Velvet. Cotizaciones a tu medida en Ciudad Madero, Tamps.">
+  <meta name="author" content="Jonathan Missael Ortiz Rodríguez - TecNM / Instituto Tecnológico de Ciudad Madero">
+  <title>Lizhet Cakes | Repostería Artesanal con Amor</title>
+
+  <!-- Google Fonts: Playfair Display (Elegancia repostera) + Poppins (Lectura clara) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos del Proyecto -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       BARRA DE NAVEGACIÓN (HEADER / NAVBAR)
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-container">
+      <!-- Logotipo e Identidad -->
+      <a href="#inicio" class="brand-logo" title="Ir al inicio de Lizhet Cakes">
+        <div class="brand-icon">
+          <!-- Ícono de Pastel Artesanal SVG -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path>
+            <path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"></path>
+            <path d="M2 21h20"></path>
+            <path d="M7 8v2"></path>
+            <path d="M12 8v2"></path>
+            <path d="M17 8v2"></path>
+            <path d="M7 4h.01"></path>
+            <path d="M12 4h.01"></path>
+            <path d="M17 4h.01"></path>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Lizhet Cakes</span>
+          <span class="brand-tagline">Repostería Artesanal</span>
+        </div>
+      </a>
+
+      <!-- Menú de Navegación (8 Secciones) -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#pasteles" class="nav-link">Nuestros Pasteles</a></li>
+          <li><a href="#sabores" class="nav-link">Sabores</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#nosotros" class="nav-link">Sobre Nosotros</a></li>
+          <li><a href="#pedidos" class="nav-link">Pedidos</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Botón de Acción Rápida en Barra -->
+      <div class="nav-btn-wrapper">
+        <a href="#pedidos" class="btn btn-primary btn-sm">
+          <span>Cotizar Pastel</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Botón Hamburguesa para Móviles -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         1. SECCIÓN INICIO (HERO)
+         ====================================================================== -->
+    <section class="hero-section" id="inicio">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Texto y Presentación -->
+          <div class="hero-content">
+            <div class="hero-pill">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+              <span>Repostería familiar hecha en casa</span>
+            </div>
+
+            <h1 class="hero-title">
+              Lizhet Cakes
+              <span>Momentos Dulces</span>
+            </h1>
+
+            <p class="hero-slogan">
+              “Pasteles hechos con amor para momentos especiales”
+            </p>
+
+            <p class="hero-description">
+              Bienvenido a nuestro espacio dulce. Horneamos pasteles de manera artesanal y con dedicación, cuidando cada detalle para que tu cumpleaños, reunión familiar o evento especial tenga el sabor casero y la presentación que mereces.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#pasteles" class="btn btn-primary">
+                <span>Ver Nuestros Pasteles</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+              <a href="#pedidos" class="btn btn-outline">
+                <span>Solicitar Información</span>
+              </a>
+            </div>
+
+            <!-- Mención de Bianca Lizhet -->
+            <div class="hero-owner-badge">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              <span>Elaborados artesanalmente por <strong>Bianca Lizhet</strong></span>
+            </div>
+          </div>
+
+          <!-- Imagen Principal de Pastelería -->
+          <div class="hero-image-wrapper">
+            <div class="hero-image-card">
+              <img 
+                src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=1000&q=80" 
+                alt="Pastel artesanal decorado con fresas y crema en Lizhet Cakes" 
+                class="hero-img"
+              >
+            </div>
+
+            <!-- Tarjeta Flotante Decorativa -->
+            <div class="floating-card">
+              <div class="floating-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <div class="floating-text">
+                <p>100% Artesanal</p>
+                <strong>Horneado desde Cero</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cintillo de Características y Confianza -->
+        <div class="features-ribbon">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+              </svg>
+            </div>
+            <div class="feature-info">
+              <h4>Elaboración Casera</h4>
+              <p>Con el cariño y receta familiar</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="feature-info">
+              <h4>Ingredientes Selectos</h4>
+              <p>Calidad y frescura en cada horneada</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+            </div>
+            <div class="feature-info">
+              <h4>Diseños a Medida</h4>
+              <p>Personalizados para tu celebración</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="M7 15h0M2 9.5h20"></path>
+              </svg>
+            </div>
+            <div class="feature-info">
+              <h4>Cotización Personalizada</h4>
+              <p>Según porciones, tamaño y sabor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. SECCIÓN NUESTROS PASTELES (CATÁLOGO)
+         ====================================================================== -->
+    <section class="section" id="pasteles">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nuestras Creaciones</span>
+          <h2 class="section-title">Nuestros Pasteles</h2>
+          <p class="section-subtitle">
+            Pasteles horneados con paciencia y decorados a mano. Cada diseño se adapta a la temática y necesidades de tu evento.
+          </p>
+        </div>
+
+        <!-- Aviso Importante: No hay precios fijos -->
+        <div class="pricing-notice-banner">
+          <div class="pricing-notice-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </div>
+          <p>
+            <strong>Información sobre presupuestos:</strong> En Lizhet Cakes no manejamos precios fijos estándar, ya que el costo final se proporciona de manera justa y personalizada de acuerdo con el tamaño, número de porciones, sabor y diseño que elijas.
+          </p>
+        </div>
+
+        <!-- Cuadrícula de 6 Tarjetas de Pasteles -->
+        <div class="cakes-grid">
+          
+          <!-- Tarjeta 1: Pastel Alemán -->
+          <article class="cake-card">
+            <div class="cake-image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700&q=80" 
+                alt="Pastel Alemán tradicional con coco tostado y nuez" 
+                class="cake-img"
+                loading="lazy"
+              >
+              <span class="cake-tag">Especialidad</span>
+            </div>
+            <div class="cake-card-body">
+              <h3 class="cake-name">Pastel Alemán</h3>
+              <span class="cake-flavor-tag">Sabor: Coco, Nuez & Cacao</span>
+              <p class="cake-description">
+                Nuestra especialidad insignia. Esponjoso bizcocho de chocolate bañado con el relleno tradicional casero de coco tostado, nuez pecana y caramelo suave.
+              </p>
+              <div class="cake-footer">
+                <span class="cake-quote-hint">Cotización según porciones</span>
+                <button class="btn btn-outline btn-sm btn-ver-mas" data-cake-id="aleman">
+                  <span>Ver más</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 2: Red Velvet -->
+          <article class="cake-card">
+            <div class="cake-image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1616541823729-00fe0aacd32c?w=700&q=80" 
+                alt="Pastel Red Velvet con cobertura aterciopelada" 
+                class="cake-img"
+                loading="lazy"
+              >
+              <span class="cake-tag">Elegante</span>
+            </div>
+            <div class="cake-card-body">
+              <h3 class="cake-name">Red Velvet</h3>
+              <span class="cake-flavor-tag">Sabor: Cacao suave & Vainilla</span>
+              <p class="cake-description">
+                Clásico de textura aterciopelada color carmesí. Su miga húmeda contrasta delicadamente con suave crema diplomática y decoraciones en miga roja.
+              </p>
+              <div class="cake-footer">
+                <span class="cake-quote-hint">Cotización según porciones</span>
+                <button class="btn btn-outline btn-sm btn-ver-mas" data-cake-id="red-velvet">
+                  <span>Ver más</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 3: Pastel de Chocolate -->
+          <article class="cake-card">
+            <div class="cake-image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=700&q=80" 
+                alt="Pastel de Chocolate intenso con ganache" 
+                class="cake-img"
+                loading="lazy"
+              >
+              <span class="cake-tag">Favorito</span>
+            </div>
+            <div class="cake-card-body">
+              <h3 class="cake-name">Pastel de Chocolate</h3>
+              <span class="cake-flavor-tag">Sabor: Chocolate Intenso</span>
+              <p class="cake-description">
+                Para los verdaderos amantes del cacao. Bizcocho húmedo relleno de generoso ganache de chocolate, terminado con virutas y toque brillante.
+              </p>
+              <div class="cake-footer">
+                <span class="cake-quote-hint">Cotización según porciones</span>
+                <button class="btn btn-outline btn-sm btn-ver-mas" data-cake-id="chocolate">
+                  <span>Ver más</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 4: Pastel de Vainilla -->
+          <article class="cake-card">
+            <div class="cake-image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=700&q=80" 
+                alt="Pastel de Vainilla clásico decorado con frutas y crema" 
+                class="cake-img"
+                loading="lazy"
+              >
+              <span class="cake-tag">Clásico</span>
+            </div>
+            <div class="cake-card-body">
+              <h3 class="cake-name">Pastel de Vainilla</h3>
+              <span class="cake-flavor-tag">Sabor: Vainilla Natural</span>
+              <p class="cake-description">
+                El bizcocho tradicional esponjoso infusionado con aroma puro a vainilla. Marida a la perfección con rellenos frutales o dulce de leche.
+              </p>
+              <div class="cake-footer">
+                <span class="cake-quote-hint">Cotización según porciones</span>
+                <button class="btn btn-outline btn-sm btn-ver-mas" data-cake-id="vainilla">
+                  <span>Ver más</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 5: Pastel para Cumpleaños -->
+          <article class="cake-card">
+            <div class="cake-image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?w=700&q=80" 
+                alt="Pastel festivo para fiesta de cumpleaños" 
+                class="cake-img"
+                loading="lazy"
+              >
+              <span class="cake-tag">Festejos</span>
+            </div>
+            <div class="cake-card-body">
+              <h3 class="cake-name">Pastel para Cumpleaños</h3>
+              <span class="cake-flavor-tag">Sabor: A elegir de nuestra carta</span>
+              <p class="cake-description">
+                Diseños festivos y llenos de color para cantar las mañanitas. Con chispas dulces, tonos temáticos y letrero para el festejado.
+              </p>
+              <div class="cake-footer">
+                <span class="cake-quote-hint">Cotización según porciones</span>
+                <button class="btn btn-outline btn-sm btn-ver-mas" data-cake-id="cumpleanos">
+                  <span>Ver más</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tarjeta 6: Pastel Personalizado / Especial -->
+          <article class="cake-card">
+            <div class="cake-image-wrap">
+              <img 
+                src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=700&q=80" 
+                alt="Pastel de pisos para ocasiones especiales" 
+                class="cake-img"
+                loading="lazy"
+              >
+              <span class="cake-tag">Personalizado</span>
+            </div>
+            <div class="cake-card-body">
+              <h3 class="cake-name">Pasteles para Eventos</h3>
+              <span class="cake-flavor-tag">Sabor: Combinaciones a medida</span>
+              <p class="cake-description">
+                Creaciones de 1 o más pisos para bodas, bautizos, aniversarios o baby showers. Diseñados de acuerdo con la paleta y estilo de tu evento.
+              </p>
+              <div class="cake-footer">
+                <span class="cake-quote-hint">Cotización según porciones</span>
+                <button class="btn btn-outline btn-sm btn-ver-mas" data-cake-id="personalizado">
+                  <span>Ver más</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. SECCIÓN SABORES
+         ====================================================================== -->
+    <section class="section section-warm" id="sabores">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nuestra Carta</span>
+          <h2 class="section-title">Sabores de la Casa</h2>
+          <p class="section-subtitle">
+            Conoce los cuatro sabores principales que hornea Bianca Lizhet, así como nuestras opciones de rellenos y acabados de decoración.
+          </p>
+        </div>
+
+        <div class="flavors-wrapper">
+          <h3 class="flavors-headline">Los 4 Sabores Principales</h3>
+          <div class="flavors-grid">
+            
+            <!-- Sabor 1: Vainilla -->
+            <div class="flavor-card">
+              <div class="flavor-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <h4 class="flavor-title">Vainilla</h4>
+              <p class="flavor-desc">
+                Bizcocho clásico, esponjoso y aromático elaborado con extracto puro de vainilla. Es la base ideal para combinar con cualquier relleno.
+              </p>
+            </div>
+
+            <!-- Sabor 2: Chocolate -->
+            <div class="flavor-card">
+              <div class="flavor-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                  <path d="M3 9h18M9 21V9"></path>
+                </svg>
+              </div>
+              <h4 class="flavor-title">Chocolate</h4>
+              <p class="flavor-desc">
+                Cacao de calidad que otorga un sabor profundo, color intenso y una consistencia húmeda irresistible en cada rebanada.
+              </p>
+            </div>
+
+            <!-- Sabor 3: Pastel Alemán -->
+            <div class="flavor-card">
+              <div class="flavor-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <h4 class="flavor-title">Pastel Alemán</h4>
+              <p class="flavor-desc">
+                Nuestra receta consentida: combinación perfecta de bizcocho suave con el cocinado tradicional de coco rallado tostado, caramelo y nuez pecana.
+              </p>
+            </div>
+
+            <!-- Sabor 4: Red Velvet -->
+            <div class="flavor-card">
+              <div class="flavor-icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <h4 class="flavor-title">Red Velvet</h4>
+              <p class="flavor-desc">
+                Miga aterciopelada color rojo pasión con notas sutiles de cocoa, maridada con una crema diplomática sedosa y ligera.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Rellenos y Coberturas de Decoración -->
+        <div class="decoration-options-box">
+          <div class="section-header" style="margin-bottom: 28px;">
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-dark);">Opciones de Rellenos y Acabados de Decoración</h3>
+            <p style="font-size: 0.92rem; color: var(--color-text-muted);">Personaliza la textura y el estilo de tu pastel</p>
+          </div>
+
+          <div class="decorations-grid">
+            <div class="deco-item">
+              <div class="deco-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                </svg>
+              </div>
+              <div class="deco-info">
+                <h5>Chantilly Suave</h5>
+                <p>Cobertura batida, fresca, ligera y de dulzura balanceada para todo tipo de pastel.</p>
+              </div>
+            </div>
+
+            <div class="deco-item">
+              <div class="deco-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="deco-info">
+                <h5>Buttercream Sedoso</h5>
+                <p>Ideal para diseños lisos elegantes, efecto semi-naked rústico o bordados decorativos.</p>
+              </div>
+            </div>
+
+            <div class="deco-item">
+              <div class="deco-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <div class="deco-info">
+                <h5>Relleno Alemán de Coco y Nuez</h5>
+                <p>Cremoso caramelo artesanal preparado pacientemente con coco y trocitos de nuez.</p>
+              </div>
+            </div>
+
+            <div class="deco-item">
+              <div class="deco-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </div>
+              <div class="deco-info">
+                <h5>Frutas Frescas y Mermeladas</h5>
+                <p>Rellenos de fresa natural, compota de frutos rojos o dulce de leche tradicional.</p>
+              </div>
+            </div>
+
+            <div class="deco-item">
+              <div class="deco-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="deco-info">
+                <h5>Detalles Temáticos</h5>
+                <p>Toppers personalizados, flores, perlas comestibles y paletas de color para tu fiesta.</p>
+              </div>
+            </div>
+
+            <div class="deco-item">
+              <div class="deco-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="M7 15h0M2 9.5h20"></path>
+                </svg>
+              </div>
+              <div class="deco-info">
+                <h5>Ganache y Drip Chocolate</h5>
+                <p>Bañado brillante de chocolate oscuro o blanco con suave goteo artesanal.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. SECCIÓN GALERÍA
+         ====================================================================== -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Nuestros Trabajos</span>
+          <h2 class="section-title">Galería de Diseños</h2>
+          <p class="section-subtitle">
+            Un vistazo a algunas de las creaciones y estilos que hemos preparado para celebrar momentos irrepetibles.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Foto 1 -->
+          <div class="gallery-item" title="Hacer clic para ampliar imagen">
+            <img 
+              src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=600&q=80" 
+              alt="Pastel con frutas frescas y frutos rojos" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h4>Decoración con Frutos Rojos</h4>
+              <p>Elegancia fresca y natural</p>
+            </div>
+          </div>
+
+          <!-- Foto 2 -->
+          <div class="gallery-item" title="Hacer clic para ampliar imagen">
+            <img 
+              src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600&q=80" 
+              alt="Detalles de repostería con betún decorado" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h4>Mesa de Postres</h4>
+              <p>Toques delicados para eventos</p>
+            </div>
+          </div>
+
+          <!-- Foto 3 -->
+          <div class="gallery-item" title="Hacer clic para ampliar imagen">
+            <img 
+              src="https://images.unsplash.com/photo-1519869325930-281384150729?w=600&q=80" 
+              alt="Pastel de cumpleaños con chispas de colores" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h4>Festejo Colorido</h4>
+              <p>Alegre diseño para cumpleaños</p>
+            </div>
+          </div>
+
+          <!-- Foto 4 -->
+          <div class="gallery-item" title="Hacer clic para ampliar imagen">
+            <img 
+              src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&q=80" 
+              alt="Elaboración y decorado artesanal de pasteles" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h4>El Toque Artesanal</h4>
+              <p>Decorado a mano con dedicación</p>
+            </div>
+          </div>
+
+          <!-- Foto 5 -->
+          <div class="gallery-item" title="Hacer clic para ampliar imagen">
+            <img 
+              src="https://images.unsplash.com/photo-1602351447937-745cb720612f?w=600&q=80" 
+              alt="Pastel con acabado de caramelo y drip" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h4>Caramelo & Nuez</h4>
+              <p>Sabores cálidos y caseros</p>
+            </div>
+          </div>
+
+          <!-- Foto 6 -->
+          <div class="gallery-item" title="Hacer clic para ampliar imagen">
+            <img 
+              src="https://images.unsplash.com/photo-1542826438-bd32f43d626f?w=600&q=80" 
+              alt="Mesa de repostería con pastel recién horneado" 
+              loading="lazy"
+            >
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  <line x1="11" y1="8" x2="11" y2="14"></line>
+                  <line x1="8" y1="11" x2="14" y2="11"></line>
+                </svg>
+              </div>
+              <h4>Directo del Horno</h4>
+              <p>Frescura y suavidad garantizadas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. SECCIÓN SOBRE NOSOTROS
+         ====================================================================== -->
+    <section class="section section-warm" id="nosotros">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Fotografía Representativa de la Cocina / Horneado -->
+          <div class="about-image-wrapper">
+            <div class="about-image-card">
+              <img 
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=800&q=80" 
+                alt="Preparación artesanal en la cocina de Lizhet Cakes" 
+                class="about-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="about-badge">
+              <span>Pastelería Familiar</span>
+              <strong>Lizhet Cakes</strong>
+            </div>
+          </div>
+
+          <!-- Historia y Misión Real -->
+          <div class="about-content">
+            <span class="section-badge">Nuestra Esencia</span>
+            <h2 class="section-title">Sobre Nosotros</h2>
+
+            <p class="about-paragraph">
+              <strong>Lizhet Cakes</strong> nace del gusto genuino de <strong>Bianca Lizhet</strong> por el arte de la repostería y por preparar pasteles para acompañar momentos especiales.
+            </p>
+
+            <p class="about-paragraph">
+              Para nosotros, hornear un pastel va más allá de combinar ingredientes: es una forma sincera de ser parte de las fechas más significativas de las familias. Ya sea un cumpleaños, un aniversario o una reunión entre seres queridos, cada pastel se elabora en casa con paciencia, cuidado y el compromiso de brindar un postre fresco, bonito y delicioso.
+            </p>
+
+            <p class="about-paragraph">
+              Creemos firmemente en el valor de lo artesanal y en la calidez de un trato cercano. Por ello, escuchamos con gusto la idea que tienes para tu evento y preparamos tu pastel con el mismo cariño y dedicación con el que horneamos para nuestra propia familia.
+            </p>
+
+            <!-- Pilares del Emprendimiento -->
+            <div class="about-values">
+              <div class="value-card">
+                <div class="value-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h5>Gusto por la Repostería</h5>
+                  <p>Pasión por hornear y crear recetas que hagan sonreír a quien las prueba.</p>
+                </div>
+              </div>
+
+              <div class="value-card">
+                <div class="value-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h5>Momentos Especiales</h5>
+                  <p>Cuidamos los detalles para que tu celebración tenga un toque inolvidable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. SECCIÓN PEDIDOS Y COTIZACIONES
+         ====================================================================== -->
+    <section class="section" id="pedidos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Cotiza Tu Evento</span>
+          <h2 class="section-title">Solicita tu Pastel</h2>
+          <p class="section-subtitle">
+            Completa el siguiente formulario para conocer las opciones y recibir una cotización a la medida de tu festejo.
+          </p>
+        </div>
+
+        <div class="order-card">
+          <!-- Explicación de Precios de acuerdo al requerimiento -->
+          <div class="order-explanation-box">
+            <h4>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>¿Cómo calculamos tu presupuesto?</span>
+            </h4>
+            <p>
+              En <strong>Lizhet Cakes</strong> no manejamos precios fijos estándar. El costo de cada pastel se cotiza de forma justa y transparente de acuerdo con el <strong>tamaño</strong>, el <strong>número aproximado de porciones</strong>, el <strong>sabor</strong> y la complejidad de la <strong>idea o diseño</strong> que desees.
+            </p>
+          </div>
+
+          <!-- Formulario con los 8 campos solicitados -->
+          <form class="order-form" id="orderForm" novalidate>
+            <div class="form-grid">
+              
+              <!-- 1. Nombre -->
+              <div class="form-group">
+                <label for="nombreCliente" class="form-label">
+                  Nombre completo <span class="required">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="nombreCliente" 
+                  name="nombre" 
+                  class="form-control" 
+                  placeholder="Ej. María del Carmen González" 
+                  required
+                >
+              </div>
+
+              <!-- 2. WhatsApp -->
+              <div class="form-group">
+                <label for="whatsappCliente" class="form-label">
+                  WhatsApp de contacto <span class="required">*</span>
+                </label>
+                <input 
+                  type="tel" 
+                  id="whatsappCliente" 
+                  name="whatsapp" 
+                  class="form-control" 
+                  placeholder="Ej. 833 123 4567" 
+                  required
+                >
+                <span class="form-hint">Te contactaremos por este medio para enviarte tu cotización</span>
+              </div>
+
+              <!-- 3. Tipo de Pastel -->
+              <div class="form-group">
+                <label for="tipoPastel" class="form-label">
+                  Tipo de pastel <span class="required">*</span>
+                </label>
+                <select id="tipoPastel" name="tipoPastel" class="form-control" required>
+                  <option value="">Selecciona una opción...</option>
+                  <option value="Pastel Alemán">Pastel Alemán (Especialidad)</option>
+                  <option value="Red Velvet">Red Velvet</option>
+                  <option value="Pastel de Chocolate">Pastel de Chocolate</option>
+                  <option value="Pastel de Vainilla">Pastel de Vainilla</option>
+                  <option value="Pastel de Cumpleaños / Festejo">Pastel para Cumpleaños / Festejo</option>
+                  <option value="Pastel para Evento Especial / Personalizado">Pastel para Evento Especial (Pisos / Boda / Bautizo)</option>
+                  <option value="Diseño Personalizado Libre">Otro diseño personalizado</option>
+                </select>
+              </div>
+
+              <!-- 4. Sabor -->
+              <div class="form-group">
+                <label for="saborPastel" class="form-label">
+                  Sabor preferido <span class="required">*</span>
+                </label>
+                <select id="saborPastel" name="sabor" class="form-control" required>
+                  <option value="">Selecciona el sabor del bizcocho...</option>
+                  <option value="Vainilla">Vainilla Clásica</option>
+                  <option value="Chocolate">Chocolate Intenso</option>
+                  <option value="Pastel Alemán (Coco y Nuez)">Pastel Alemán (Coco y Nuez)</option>
+                  <option value="Red Velvet">Red Velvet</option>
+                  <option value="Combinación de Sabores">Combinación de sabores (para pasteles de pisos)</option>
+                </select>
+              </div>
+
+              <!-- 5. Número aproximado de porciones -->
+              <div class="form-group">
+                <label for="porcionesPastel" class="form-label">
+                  Número aproximado de porciones <span class="required">*</span>
+                </label>
+                <select id="porcionesPastel" name="porciones" class="form-control" required>
+                  <option value="">Selecciona la cantidad estimada...</option>
+                  <option value="10 a 15 personas">10 a 15 personas (Reunión íntima)</option>
+                  <option value="15 a 20 personas">15 a 20 personas</option>
+                  <option value="20 a 30 personas">20 a 30 personas</option>
+                  <option value="30 a 40 personas">30 a 40 personas</option>
+                  <option value="50 o más personas">50 o más personas (Gran festejo)</option>
+                </select>
+              </div>
+
+              <!-- 6. Tamaño -->
+              <div class="form-group">
+                <label for="tamanoPastel" class="form-label">
+                  Tamaño del pastel <span class="required">*</span>
+                </label>
+                <select id="tamanoPastel" name="tamano" class="form-control" required>
+                  <option value="">Selecciona el tamaño estimado...</option>
+                  <option value="Chico (1 piso)">Chico (1 piso)</option>
+                  <option value="Mediano (1 piso)">Mediano (1 piso)</option>
+                  <option value="Grande (1 piso)">Grande (1 piso)</option>
+                  <option value="2 pisos">2 pisos (Para eventos y celebraciones)</option>
+                  <option value="3 o más pisos">3 o más pisos (Bodas o XV años)</option>
+                  <option value="Por definir con Bianca">Por definir con asesoría</option>
+                </select>
+              </div>
+
+              <!-- 7. Fecha del evento -->
+              <div class="form-group full-width">
+                <label for="fechaEvento" class="form-label">
+                  Fecha del evento <span class="required">*</span>
+                </label>
+                <input 
+                  type="date" 
+                  id="fechaEvento" 
+                  name="fecha" 
+                  class="form-control" 
+                  required
+                >
+                <span class="form-hint">Te sugerimos solicitar tu pastel con anticipación para asegurar disponibilidad</span>
+              </div>
+
+              <!-- 8. Idea o descripción del diseño -->
+              <div class="form-group full-width">
+                <label for="disenoPastel" class="form-label">
+                  Idea o descripción del diseño
+                </label>
+                <textarea 
+                  id="disenoPastel" 
+                  name="diseno" 
+                  class="form-control" 
+                  rows="3" 
+                  placeholder="Cuéntanos la temática, colores deseados, dedicatoria o cualquier detalle especial que tengas en mente..."
+                ></textarea>
+              </div>
+
+            </div>
+
+            <!-- Botón de Envío -->
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary" id="btnEnviarPedido">
+                <span>Enviar pedido</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+              <p class="form-submit-note">
+                Al enviar este formulario demostrativo se confirmará tu registro y podrás visualizar el resumen de tu solicitud.
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. SECCIÓN CONTACTO
+         ====================================================================== -->
+    <section class="section section-warm" id="contacto">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Atención Cercana</span>
+          <h2 class="section-title">Medios de Contacto</h2>
+          <p class="section-subtitle">
+            Ponte en comunicación con nosotros para resolver preguntas sobre disponibilidad, sabores o ideas personalizadas.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Tarjeta WhatsApp (Preparada para enlace real) -->
+          <div class="contact-card whatsapp">
+            <div class="contact-icon-wrap">
+              <!-- Ícono de WhatsApp SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.216 8.216 0 0 1-1.26-4.46c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.98-.14.17-.29.19-.54.07-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05 0 1.21.88 2.38 1 2.55.12.17 1.74 2.66 4.22 3.73.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">WhatsApp</h3>
+            <p class="contact-card-text">
+              Escríbenos directamente para cotizaciones rápidas, dudas sobre porciones y pedidos especiales.
+            </p>
+            <!-- Botón preparado para número oficial -->
+            <a href="#" class="btn btn-whatsapp" data-action="whatsapp">
+              <span>Contactar por WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Tarjeta Facebook (Preparada para enlace real) -->
+          <div class="contact-card facebook">
+            <div class="contact-icon-wrap">
+              <!-- Ícono de Facebook SVG -->
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Facebook</h3>
+            <p class="contact-card-text">
+              Síguenos en nuestra página oficial de Facebook para ver fotos recientes de entregas y novedades.
+            </p>
+            <!-- Botón preparado para enlace oficial -->
+            <a href="#" class="btn btn-facebook" data-action="facebook">
+              <span>Página de Facebook</span>
+            </a>
+          </div>
+
+          <!-- Tarjeta Información y Ubicación de Referencia -->
+          <div class="contact-card info">
+            <div class="contact-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Atención y Entregas</h3>
+            <p class="contact-card-text">
+              <strong>Ubicación:</strong> Ciudad Madero, Tamaulipas.<br>
+              <strong>Modalidad:</strong> Pasteles bajo pedido previo.<br>
+              <strong>Horario para pedidos:</strong> Lunes a Sábado: 9:00 AM – 7:00 PM.
+            </p>
+            <a href="#pedidos" class="btn btn-outline" style="width: 100%;">
+              <span>Ir a Cotizar</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Nota aclaratoria para el usuario / evaluador -->
+        <div class="contact-notice-box">
+          <p>
+            ℹ️ <strong>Nota:</strong> Los enlaces de WhatsApp y Facebook han sido preparados con la estructura necesaria para vincularse de manera inmediata con las cuentas y números telefónicos oficiales de <strong>Lizhet Cakes</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       8. PIE DE PÁGINA (FOOTER CON CRÉDITOS OBLIGATORIOS)
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Columna 1: Marca y descripción -->
+        <div class="footer-brand">
+          <div class="brand-logo" style="margin-bottom: 12px;">
+            <div class="brand-icon" style="background-color: rgba(255,255,255,0.1); color: var(--color-accent);">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path>
+                <path d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"></path>
+                <path d="M2 21h20"></path>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">Lizhet Cakes</span>
+              <span class="brand-tagline">Repostería Artesanal</span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Pasteles hechos con amor para momentos especiales. Emprendimiento de repostería familiar de <strong>Bianca Lizhet</strong>, especializado en pastel alemán, red velvet, chocolate y vainilla.
+          </p>
+        </div>
+
+        <!-- Columna 2: Enlaces rápidos -->
+        <div>
+          <h4 class="footer-col-title">Secciones</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#pasteles">Nuestros Pasteles</a></li>
+            <li><a href="#sabores">Sabores y Rellenos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#pedidos">Solicitar Cotización</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Créditos Académicos (Requeridos por el usuario) -->
+        <div>
+          <h4 class="footer-col-title">Créditos del Proyecto</h4>
+          <div class="footer-academic-card">
+            <p class="academic-label">Proyecto Académico Universitario</p>
+            <p class="academic-student">Elaborado por: Jonathan Missael Ortiz Rodríguez</p>
+            <p class="academic-institution">TecNM / Instituto Tecnológico de Ciudad Madero</p>
+            <p class="academic-note">
+              Desarrollado con HTML5, CSS3 y JavaScript moderno para evaluación académica y base para emprendimiento familiar real.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Barra inferior de derechos -->
+      <div class="footer-bottom">
+        <p>© 2026 Lizhet Cakes. Todos los derechos reservados.</p>
+        <p>Ciudad Madero, Tamaulipas, México</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODALES INTERACTIVOS
+       ======================================================================== -->
+
+  <!-- Modal 1: Detalle de Pastel ("Ver más") -->
+  <div class="modal-overlay" id="cakeModal" role="dialog" aria-modal="true" aria-labelledby="modalCakeTitle">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="cakeModalClose" aria-label="Cerrar detalles del pastel">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-image-wrap">
+        <img id="modalCakeImg" src="" alt="">
+      </div>
+
+      <div class="modal-body">
+        <span class="modal-cake-tag" id="modalCakeTag"></span>
+        <h3 class="modal-cake-title" id="modalCakeTitle"></h3>
+        <p class="modal-cake-desc" id="modalCakeDesc"></p>
+
+        <div class="modal-details-grid">
+          <div class="modal-detail-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+            </svg>
+            <div>
+              <span>Porciones:</span><br>
+              <strong id="modalCakePortions"></strong>
+            </div>
+          </div>
+
+          <div class="modal-detail-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+            <div>
+              <span>Base:</span><br>
+              <strong id="modalCakeBase"></strong>
+            </div>
+          </div>
+
+          <div class="modal-detail-item" style="grid-column: span 2;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+            </svg>
+            <div>
+              <span>Relleno:</span><br>
+              <strong id="modalCakeFilling"></strong>
+            </div>
+          </div>
+
+          <div class="modal-detail-item" style="grid-column: span 2;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 20h9"></path>
+              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+            </svg>
+            <div>
+              <span>Decoración:</span><br>
+              <strong id="modalCakeDeco"></strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-quote-notice">
+          ℹ️ <strong>Cotización personalizada:</strong> El precio se proporciona de acuerdo con el tamaño, número de porciones, sabor y diseño elegido.
+        </div>
+
+        <button class="btn btn-primary btn-block" id="modalCakeQuoteBtn">
+          <span>Solicitar cotización de este pastel</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Galería Lightbox (Visor de Fotos) -->
+  <div class="modal-overlay" id="galleryModal" role="dialog" aria-modal="true" aria-labelledby="galleryLightboxTitle">
+    <div class="modal-content" style="max-width: 750px;">
+      <button class="modal-close-btn" id="galleryModalClose" aria-label="Cerrar visor de imagen">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div style="max-height: 480px; overflow: hidden; background-color: #000; display: flex; align-items: center; justify-content: center;">
+        <img id="galleryLightboxImg" src="" alt="" style="max-height: 480px; width: auto; object-fit: contain;">
+      </div>
+
+      <div style="padding: 22px 28px;">
+        <h4 id="galleryLightboxTitle" style="font-family: var(--font-heading); font-size: 1.35rem; color: var(--color-dark); margin-bottom: 4px;"></h4>
+        <p id="galleryLightboxDesc" style="color: var(--color-primary); font-size: 0.9rem; font-weight: 500;"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Confirmación de Pedido Recibido (Éxito) -->
+  <div class="modal-overlay" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successModalTitle">
+    <div class="modal-content success-modal-content" style="max-width: 580px;">
+      <button class="modal-close-btn" id="successModalClose" aria-label="Cerrar confirmación">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="success-icon-wrap">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </div>
+
+      <h3 class="success-title" id="successModalTitle">¡Solicitud de Pedido Recibida!</h3>
+      <p style="font-size: 0.96rem; color: var(--color-text);">
+        Hemos registrado los datos de tu pastel. Nos pondremos en contacto contigo vía WhatsApp para brindarte tu cotización personalizada de acuerdo con las porciones y el diseño que solicitaste.
+      </p>
+
+      <!-- Resumen estructurado del pedido recibido -->
+      <div class="order-summary-box">
+        <div class="order-summary-row">
+          <span class="label">Nombre:</span>
+          <span class="value" id="summaryNombre"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">WhatsApp de contacto:</span>
+          <span class="value" id="summaryWhatsApp"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">Tipo de Pastel:</span>
+          <span class="value" id="summaryTipo"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">Sabor elegido:</span>
+          <span class="value" id="summarySabor"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">Porciones aprox.:</span>
+          <span class="value" id="summaryPorciones"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">Tamaño:</span>
+          <span class="value" id="summaryTamano"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">Fecha del evento:</span>
+          <span class="value" id="summaryFecha"></span>
+        </div>
+        <div class="order-summary-row">
+          <span class="label">Detalles o diseño:</span>
+          <span class="value" id="summaryDiseno"></span>
+        </div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+        <!-- Botón de apertura a WhatsApp cuando esté configurado -->
+        <a href="#" class="btn btn-whatsapp" id="btnOpenWhatsAppOrder" target="_blank" style="display: none; width: 100%;">
+          <span>Enviar mensaje por WhatsApp</span>
+        </a>
+        <button class="btn btn-primary" id="btnSuccessOk" style="min-width: 180px;">
+          <span>Entendido, ¡gracias!</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botón Flotante para Volver Arriba -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Script Principal -->
+  <script src="js/main.js"></script>
+</body>
+</html>
